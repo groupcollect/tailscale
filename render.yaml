@@ -3,6 +3,7 @@ services:
     name: render-subnet-router
     env: docker
     autoDeploy: false
+    region: virginia
     envVars:
       - key: TAILSCALE_AUTHKEY
         sync: false
